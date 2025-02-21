@@ -13,10 +13,8 @@ int main() {
     // Cadastro das Cartas:
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
     // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-    
-    // Exibição dos Dados das Cartas:
-    // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
-    // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+//testando02
+
     //declaração das variáveis
     char letra1[15], letra2[15]; // IMPORTANTE: DECLARAR NOVAS VARIÁVEIS PARA NOVAS CARTAS!!!
     char codigo1[15], nome1[15], codigo2[15], nome2[15];
