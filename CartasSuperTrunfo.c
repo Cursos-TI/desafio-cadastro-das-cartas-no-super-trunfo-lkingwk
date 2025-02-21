@@ -1,5 +1,4 @@
 #include <stdio.h>
-//teste02 b2
 //inicio do desafio
 // Desafio Super Trunfo - Países
 // Tema 1 - Cadastro das Cartas
@@ -13,7 +12,6 @@ int main() {
     // Cadastro das Cartas:
     // Sugestão: Utilize a função scanf para capturar as entradas do usuário para cada atributo.
     // Solicite ao usuário que insira as informações de cada cidade, como o código, nome, população, área, etc.
-//testando02
 
     //declaração das variáveis
     char letra1[15], letra2[15]; // IMPORTANTE: DECLARAR NOVAS VARIÁVEIS PARA NOVAS CARTAS!!!
