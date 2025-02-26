@@ -20,7 +20,7 @@ int main() {
     char letra1[15], letra2[15]; // IMPORTANTE: DECLARAR NOVAS VARIÁVEIS PARA NOVAS CARTAS!!!
     char codigo1[15], nome1[15], codigo2[15], nome2[15];
     int habitantes,habitantes2, pontostur, pontostur2;
-    float area, area2, pib, pib2, densipop1, densipop2;
+    float area, area2, pib, pib2, densipop1, densipop2, pibperct1, pibperct2;
 
     /*
 
@@ -59,6 +59,7 @@ int main() {
     scanf("%d", &pontostur);
 
     densipop1 = (float) habitantes / area; //calcular a densidade populacional da primeira carta
+    pibperct1 = (float) pib / habitantes; //calcular o pib per capta
 
 
     //entrada de dados da segunda carta
@@ -86,6 +87,7 @@ int main() {
     scanf("%d", &pontostur2);
 
     densipop2 = (float) habitantes2 / area2; //calcular a densidade populacional da segunda carta
+    pibperct2 = (float) pib2 / habitantes2; //calcular o pib per capta
     
 
     //visualização da carta 01
